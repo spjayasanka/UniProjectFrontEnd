@@ -1,6 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
 .frm2 {
-  background: rgba(41, 3, 6, 0.2);/* Green background with 30% opacity */
+  background: rgba(41, 3, 6, 0.3);/* Green background with 30% opacity */
   padding: 25px;
   filter: alpha(opacity=10);
 }
