@@ -10,12 +10,12 @@ import {log} from 'util';
 })
 export class DesignerRegComponent implements OnInit {
 
-  selectedDesigner: Designer = new Designer('', '', '', '', '', null);
+  selectedCustomer: Designer = new Designer('', '', '', '', '', null);
   constructor(private designerService: DesignerService) {}
   ngOnInit() {
   }
   saveDesigner(): void {
-    this.designerService.saveDesigner(this.selectedDesigner).subscribe(isOk => {
+    this.designerService.saveDesigner(this.selectedCustomer).subscribe(isOk => {
 
       if (!isOk) {
         alert('Designer has been saved successfully.');
