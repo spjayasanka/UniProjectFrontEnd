@@ -1,0 +1,5 @@
+.frm2 {
+  background: rgba(20, 80, 30, 0.5);/* Green background with 30% opacity */
+  padding: 25px;
+  filter: alpha(opacity=10);
+}

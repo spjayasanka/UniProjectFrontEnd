@@ -1,0 +1,16 @@
+.frm2 {
+  background: rgba(41, 3, 6, 0.2);/* Green background with 30% opacity */
+  padding: 25px;
+  filter: alpha(opacity=10);
+}
+.bg{
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
